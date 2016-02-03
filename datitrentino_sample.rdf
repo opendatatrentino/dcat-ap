@@ -32,12 +32,10 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:dcat="http://www.w3.org/ns/dcat#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	 xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#&quot;"
-	 >
+     xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#&quot;"
+ >
 
     <!-- http://dati.trentino.it/resource/Catalogo/DATITRENTINOIT_Catalog -->
-	<dcat:Catalog>
-    
 	<rdf:Description rdf:about="http://dati.trentino.it/resource/Catalogo/DATITRENTINOIT_Catalog">
         <rdf:type rdf:resource="http://dati.trentino.it/onto/dcatapit#&quot;Catalog"/>
         <rdf:type rdf:resource="&dcat;Catalog"/>
@@ -353,8 +351,6 @@
         <rdf:type rdf:resource="&dct;PeriodOfTime"/>
         <dcatapit:startDate rdf:datatype="&xsd;date">2010-01-01</dcatapit:startDate>
     </rdf:Description>
-
-<dcat:Catalog>
 	
 </rdf:RDF>
 
